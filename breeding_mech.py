@@ -48,6 +48,7 @@ class Pokemon:
     # A IMPLEMENTAR: nature, ability, etc.
 
 # IMPLEMENTAR: LÓGICA PARA DESTINY KNOT, CASO UM (OU AMBOS??) DOS POKEMONS SEJA O DITTO
+# IMPLEMENTAR: transmissão de habilidades e naturezas também
 def gerar_ovo(pai: Pokemon, mae: Pokemon) -> Pokemon:
     """Função que gera IVs aleatórios para o Pokémon filho (sem itens, herda 3 IVs e randomiza 3)"""
     
@@ -71,7 +72,7 @@ def gerar_ovo(pai: Pokemon, mae: Pokemon) -> Pokemon:
     # pkm filho sempre será da espécie mãe, a não ser se for male + ditto (implementar exceção!!!)
     return Pokemon(especie=mae.especie, ivs=ivs_filhote)
 
-# --- Testando a Estrutura ---
+
 if __name__ == "__main__":
     pai_ivs = IVs(hp=31, attack=31, defense=31, sp_atk=31, sp_def=31, speed=31)
     pai = Pokemon(especie="Ditto", ivs=pai_ivs)
