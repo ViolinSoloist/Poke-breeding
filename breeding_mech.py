@@ -41,6 +41,11 @@ class BreedingItem(Enum):
     POWER_ANKLET = auto()
 
 class Gender(Enum):
+    """Valores do ENUM escolhidos para facilitar a verificação de gêneros válidos/opostos entre dois Pokémons.
+    * soma = 1 => gêneros opostos (macho e fêmea).
+    * soma = 0 ou 2 => gêneros iguais (duas fêmeas ou dois machos).
+    * soma >= 3 => pelo menos um Pokémon sem gênero."""
+
     GENDERLESS = 3
     MALE = 1
     FEMALE = 0
@@ -50,8 +55,10 @@ class Gender(Enum):
 class Pokemon:
     """Todos os atributos de um Pokémon que são relevantes para a mecânica de breeding.
     
-    .. note:: Para a declaração desta classe, é necessário apenas espécie e gênero, pois são os atributos que são necessários
-        em todas as funcionalidades. Os demais devem ser atribuídos conforme a necessidade."""
+    .. Note:: Para a declaração desta classe, é necessário apenas espécie e gênero (se não for Ditto), pois são os atributos que são necessários
+        em todas as funcionalidades. Os demais devem ser atribuídos conforme a necessidade.
+        
+    .. Attention:: Ainda falta implementar atributos de natureza, habilidade e outras coisas que são relevantes no cruzamento."""
     
     especie: str
     genero: Gender = None
@@ -167,7 +174,7 @@ def gerar_ovo(parent1: Pokemon, parent2: Pokemon) -> Pokemon:
     """Gera o ovo de um Pokémon, fruto do cruzamento de outros dois Pokémons compatíveis, calculando os atributos.
     A função também verifica compatibilidade.
     
-    .. Attention:: Apenas herança de IVs, por enquanto.
+    .. Attention:: Apenas herança de IVs, por enquanto (Ainda falta implementar lógica para itens e trasmissão de habilidades e naturezas).
     
         Cálculo de probabilidade de gênero ainda deve ser implementado (Há probabilidades específicas para algumas espécies).
         Por enquanto, é só 50%/50%."""
