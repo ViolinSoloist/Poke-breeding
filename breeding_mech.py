@@ -179,6 +179,7 @@ def gerar_ovo(parent1: Pokemon, parent2: Pokemon) -> Pokemon:
         Cálculo de probabilidade de gênero ainda deve ser implementado (Há probabilidades específicas para algumas espécies).
         Por enquanto, é só 50%/50%."""
 
+    # ---------- VERIFICAÇÃO DE COMPATIBILIDADE ------------------
     if not compatible(parent1, parent2):
         raise ValueError(f"Cruzamento inválido: {parent1.especie} e {parent2.especie} não são compatíveis.", "compatibilidade")
     
