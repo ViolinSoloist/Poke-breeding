@@ -2,8 +2,17 @@ from typing import NamedTuple
 from dataclasses import dataclass
 from enum import Enum, auto
 import random
+import json
 
 # Bibliografia: https://pokemondb.net/mechanics/breeding
+
+__DATABASE_FILENAME = "pokemon_data.json"
+try:
+    with open(__DATABASE_FILENAME, "r", encoding="utf-8") as f:
+        POKEDEX_DB = json.load(f)
+except FileNotFoundError:
+    print(f"Aviso: {__DATABASE_FILENAME} não encontrado.")
+    POKEDEX_DB = {}
 
 # NamedTuple => "Struct" imutável
 class IVs(NamedTuple):
@@ -128,6 +137,46 @@ conexoes_egg_groups = {
         EggGroup.BUG, EggGroup.FLYING, EggGroup.WATER_1
     }
 }
+
+# -----------------------------------------------
+# ------------------- FUNCOES -------------------
+# -----------------------------------------------
+
+def make_pokemon(nome_especie: str, item: BreedingItem = None, ivs_customizados: IVs = None) -> Pokemon:
+    """Cria um Pokémon buscando automaticamente seus Egg Groups e sorteando seu gênero."""
+    
+    nome = nome_especie.lower()
+    if nome not in POKEDEX_DB:
+        raise ValueError(f"Espécie '{nome}' não existe no banco de dados.")
+        
+    dados = POKEDEX_DB[nome]
+    
+    # 1. Converter Strings do JSON para o Enum EggGroup
+    # Nota: A PokéAPI usa 'plant' ao invés de 'grass' e 'humanshape' ao invés de 'human-like'.
+    # Você precisará alinhar os nomes do seu Enum com os nomes da API.
+    tupla_grupos = tuple(EggGroup[nome_grupo] for nome_grupo in dados['egg_groups'])
+    
+    # 2. Calcular o Gênero
+    taxa = dados['gender_rate']
+    if taxa == -1:
+        genero_sorteado = Gender.GENDERLESS
+    elif taxa == 0:
+        genero_sorteado = Gender.MALE
+    elif taxa == 8:
+        genero_sorteado = Gender.FEMALE
+    else:
+        # random.randint(1, 8) gera um número de 1 a 8. 
+        # Se cair dentro da "taxa", é fêmea.
+        genero_sorteado = Gender.FEMALE if random.randint(1, 8) <= taxa else Gender.MALE
+        
+    # 3. Retorna a dataclass preenchida
+    return Pokemon(
+        especie=nome_especie.capitalize(),
+        egg_groups=tupla_grupos,
+        genero=genero_sorteado,
+        item=item,
+        ivs=ivs_customizados
+    )
 
 def compatible(p1: Pokemon, p2: Pokemon) -> bool:
     """Verifica se dois Pokémons podem cruzar e gerar um ovo, com base no gênero, grupos de ovos e no fato de serem ou não Ditto."""
