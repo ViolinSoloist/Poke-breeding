@@ -185,19 +185,14 @@ def gerar_ovo(parent1: Pokemon, parent2: Pokemon) -> Pokemon:
     
     atributos = ['hp', 'attack', 'defense', 'sp_atk', 'sp_def', 'speed']
     
-    # Escolhe três dentre os atributos acima para serem herdados dos pais (sem o Destiny Knot)
-    atributos_herdados = random.sample(atributos, 3)
+    # Pré randomiza os 6 atributos para depois mudarmos 3 (com repetição permitida)
+    novos_ivs = {attr: random.randint(0, 31) for attr in atributos}
     
-    # Formação dos IVs do pkm filho
-    novos_ivs = {}
-    for atributo in atributos:
-        # Se é um atributo que vai ser herdado, tem 50% de ser do pai e 50% de ser da mãe
-        # Se não, é gerado aleatoriamente de 0 a 31
-        if atributo in atributos_herdados:
-            valor_herdado = getattr(parent1.ivs, atributo) if random.choice([True, False]) else getattr(parent2.ivs, atributo)
-            novos_ivs[atributo] = valor_herdado
-        else:
-            novos_ivs[atributo] = random.randint(0, 31)
+    # (Faz 3 sorteios sequenciais independentes de herança (permitindo sobrescrita) caso não haja Destiny Knot)
+    for _ in range(3):
+        atributo_sorteado = random.choice(atributos)
+        pai_escolhido = parent1 if random.choice([True, False]) else parent2 
+        novos_ivs[atributo_sorteado] = getattr(pai_escolhido.ivs, atributo_sorteado)
             
     ivs_filhote = IVs(**novos_ivs)
     especie_filho = __get_especie_filho(parent1, parent2)
