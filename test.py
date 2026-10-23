@@ -1,2 +1,3 @@
-l = [1, ...]
-print(type(l))
+import random
+
+print(random.randint(0,3))
