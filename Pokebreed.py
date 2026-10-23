@@ -72,6 +72,7 @@ class Pkm:
     .. Attention:: Ainda falta implementar atributos de natureza, habilidade e outras coisas que são relevantes no cruzamento."""
     
     especie: str        # Único atributo necessário para instanciar esta classe, pois outras são preenchidas com com API
+    forma_base: str = None
     egg_groups: tuple[EggGroup, ...] = None
     gender_rate: int = None
     genero: Gender = None
@@ -168,6 +169,7 @@ def new_pokemon(specie: str, gender: Gender = None, item: BreedingItem = None, i
 
     return Pkm(
         especie=specie.capitalize(),
+        forma_base=dados.get("forma_base", nome),
         egg_groups=tupla_grupos,
         genero=gender if nome != "ditto" else Gender.GENDERLESS,
         gender_rate=dados['gender_rate'],
@@ -303,7 +305,7 @@ def gerar_ovo(parent1: Pkm, parent2: Pkm) -> Pkm:
             
     ivs_filhote = IVs(**novos_ivs)
     pai_base = __get_parent_base(parent1, parent2)
-    especie_filho = pai_base.especie
+    especie_filho = pai_base.forma_base
     genero_filho = randomGender(especie_filho)
 
     return new_pokemon(
