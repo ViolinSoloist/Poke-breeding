@@ -24,7 +24,7 @@
         ],
         "gender_rate": 1,
         "is_baby": false,
-        "forma_base": "ivysaur"
+        "forma_base": "bulbasaur"
     },
     "charmander": {
         "egg_groups": [
@@ -51,7 +51,7 @@
         ],
         "gender_rate": 1,
         "is_baby": false,
-        "forma_base": "charmeleon"
+        "forma_base": "charmander"
     },
     "squirtle": {
         "egg_groups": [
@@ -78,7 +78,7 @@
         ],
         "gender_rate": 1,
         "is_baby": false,
-        "forma_base": "wartortle"
+        "forma_base": "squirtle"
     },
     "caterpie": {
         "egg_groups": [
@@ -102,7 +102,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "metapod"
+        "forma_base": "caterpie"
     },
     "weedle": {
         "egg_groups": [
@@ -126,7 +126,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "kakuna"
+        "forma_base": "weedle"
     },
     "pidgey": {
         "egg_groups": [
@@ -150,7 +150,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "pidgeotto"
+        "forma_base": "pidgey"
     },
     "rattata": {
         "egg_groups": [
@@ -218,7 +218,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "pikachu"
+        "forma_base": "pichu"
     },
     "sandshrew": {
         "egg_groups": [
@@ -259,7 +259,7 @@
         ],
         "gender_rate": 8,
         "is_baby": false,
-        "forma_base": "nidorina"
+        "forma_base": "nidoran-f"
     },
     "nidoran-m": {
         "egg_groups": [
@@ -286,7 +286,7 @@
         ],
         "gender_rate": 0,
         "is_baby": false,
-        "forma_base": "nidorino"
+        "forma_base": "nidoran-m"
     },
     "clefairy": {
         "egg_groups": [
@@ -302,7 +302,7 @@
         ],
         "gender_rate": 6,
         "is_baby": false,
-        "forma_base": "clefairy"
+        "forma_base": "cleffa"
     },
     "vulpix": {
         "egg_groups": [
@@ -334,7 +334,7 @@
         ],
         "gender_rate": 6,
         "is_baby": false,
-        "forma_base": "jigglypuff"
+        "forma_base": "igglybuff"
     },
     "zubat": {
         "egg_groups": [
@@ -374,7 +374,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "gloom"
+        "forma_base": "oddish"
     },
     "paras": {
         "egg_groups": [
@@ -514,10 +514,10 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "poliwhirl"
+        "forma_base": "poliwag"
     },
     "abra": {
-        "egg_groups": [
+        "eggir_groups": [
             "HUMANSHAPE"
         ],
         "gender_rate": 2,
@@ -538,7 +538,7 @@
         ],
         "gender_rate": 2,
         "is_baby": false,
-        "forma_base": "kadabra"
+        "forma_base": "abra"
     },
     "machop": {
         "egg_groups": [
@@ -562,7 +562,7 @@
         ],
         "gender_rate": 2,
         "is_baby": false,
-        "forma_base": "machoke"
+        "forma_base": "machop"
     },
     "bellsprout": {
         "egg_groups": [
@@ -586,7 +586,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "weepinbell"
+        "forma_base": "bellsprout"
     },
     "tentacool": {
         "egg_groups": [
@@ -626,7 +626,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "graveler"
+        "forma_base": "geodude"
     },
     "ponyta": {
         "egg_groups": [
@@ -775,7 +775,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "haunter"
+        "forma_base": "gastly"
     },
     "onix": {
         "egg_groups": [
@@ -1229,7 +1229,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "dragonair"
+        "forma_base": "dratini"
     },
     "mewtwo": {
         "egg_groups": [
@@ -1272,7 +1272,7 @@
         ],
         "gender_rate": 1,
         "is_baby": false,
-        "forma_base": "bayleef"
+        "forma_base": "chikorita"
     },
     "cyndaquil": {
         "egg_groups": [
@@ -1296,7 +1296,7 @@
         ],
         "gender_rate": 1,
         "is_baby": false,
-        "forma_base": "quilava"
+        "forma_base": "cyndaquil"
     },
     "totodile": {
         "egg_groups": [
@@ -1323,7 +1323,7 @@
         ],
         "gender_rate": 1,
         "is_baby": false,
-        "forma_base": "croconaw"
+        "forma_base": "totodile"
     },
     "sentret": {
         "egg_groups": [
@@ -1395,7 +1395,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "golbat"
+        "forma_base": "zubat"
     },
     "chinchou": {
         "egg_groups": [
@@ -1495,7 +1495,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "flaaffy"
+        "forma_base": "mareep"
     },
     "bellossom": {
         "egg_groups": [
@@ -1503,7 +1503,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "gloom"
+        "forma_base": "oddish"
     },
     "marill": {
         "egg_groups": [
@@ -1521,7 +1521,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "marill"
+        "forma_base": "azurill"
     },
     "sudowoodo": {
         "egg_groups": [
@@ -1537,7 +1537,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "poliwhirl"
+        "forma_base": "poliwag"
     },
     "hoppip": {
         "egg_groups": [
@@ -1564,7 +1564,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "skiploom"
+        "forma_base": "hoppip"
     },
     "aipom": {
         "egg_groups": [
@@ -1902,7 +1902,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "seadra"
+        "forma_base": "horsea"
     },
     "phanpy": {
         "egg_groups": [
@@ -1998,7 +1998,7 @@
         ],
         "gender_rate": 8,
         "is_baby": false,
-        "forma_base": "chansey"
+        "forma_base": "happiny"
     },
     "raikou": {
         "egg_groups": [
@@ -2046,7 +2046,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "pupitar"
+        "forma_base": "larvitar"
     },
     "lugia": {
         "egg_groups": [
@@ -2097,7 +2097,7 @@
         ],
         "gender_rate": 1,
         "is_baby": false,
-        "forma_base": "grovyle"
+        "forma_base": "treecko"
     },
     "torchic": {
         "egg_groups": [
@@ -2121,7 +2121,7 @@
         ],
         "gender_rate": 1,
         "is_baby": false,
-        "forma_base": "combusken"
+        "forma_base": "torchic"
     },
     "mudkip": {
         "egg_groups": [
@@ -2148,7 +2148,7 @@
         ],
         "gender_rate": 1,
         "is_baby": false,
-        "forma_base": "marshtomp"
+        "forma_base": "mudkip"
     },
     "poochyena": {
         "egg_groups": [
@@ -2204,7 +2204,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "silcoon"
+        "forma_base": "wurmple"
     },
     "cascoon": {
         "egg_groups": [
@@ -2220,7 +2220,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "cascoon"
+        "forma_base": "wurmple"
     },
     "lotad": {
         "egg_groups": [
@@ -2247,7 +2247,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "lombre"
+        "forma_base": "lotad"
     },
     "seedot": {
         "egg_groups": [
@@ -2274,7 +2274,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "nuzleaf"
+        "forma_base": "seedot"
     },
     "taillow": {
         "egg_groups": [
@@ -2335,7 +2335,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "kirlia"
+        "forma_base": "ralts"
     },
     "surskit": {
         "egg_groups": [
@@ -2395,7 +2395,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "vigoroth"
+        "forma_base": "slakoth"
     },
     "nincada": {
         "egg_groups": [
@@ -2446,7 +2446,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "loudred"
+        "forma_base": "whismur"
     },
     "makuhita": {
         "egg_groups": [
@@ -2537,7 +2537,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "lairon"
+        "forma_base": "aron"
     },
     "meditite": {
         "egg_groups": [
@@ -2738,7 +2738,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "vibrava"
+        "forma_base": "trapinch"
     },
     "cacnea": {
         "egg_groups": [
@@ -3034,7 +3034,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "sealeo"
+        "forma_base": "spheal"
     },
     "clamperl": {
         "egg_groups": [
@@ -3099,7 +3099,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "shelgon"
+        "forma_base": "bagon"
     },
     "beldum": {
         "egg_groups": [
@@ -3123,7 +3123,7 @@
         ],
         "gender_rate": -1,
         "is_baby": false,
-        "forma_base": "metang"
+        "forma_base": "beldum"
     },
     "regirock": {
         "egg_groups": [
@@ -3230,7 +3230,7 @@
         ],
         "gender_rate": 1,
         "is_baby": false,
-        "forma_base": "grotle"
+        "forma_base": "turtwig"
     },
     "chimchar": {
         "egg_groups": [
@@ -3257,7 +3257,7 @@
         ],
         "gender_rate": 1,
         "is_baby": false,
-        "forma_base": "monferno"
+        "forma_base": "chimchar"
     },
     "piplup": {
         "egg_groups": [
@@ -3284,7 +3284,7 @@
         ],
         "gender_rate": 1,
         "is_baby": false,
-        "forma_base": "prinplup"
+        "forma_base": "piplup"
     },
     "starly": {
         "egg_groups": [
@@ -3308,7 +3308,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "staravia"
+        "forma_base": "starly"
     },
     "bidoof": {
         "egg_groups": [
@@ -3366,7 +3366,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "luxio"
+        "forma_base": "shinx"
     },
     "budew": {
         "egg_groups": [
@@ -3383,7 +3383,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "roselia"
+        "forma_base": "budew"
     },
     "cranidos": {
         "egg_groups": [
@@ -3699,7 +3699,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "gabite"
+        "forma_base": "gible"
     },
     "munchlax": {
         "egg_groups": [
@@ -3840,7 +3840,7 @@
         ],
         "gender_rate": -1,
         "is_baby": false,
-        "forma_base": "magneton"
+        "forma_base": "magnemite"
     },
     "lickilicky": {
         "egg_groups": [
@@ -3857,7 +3857,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "rhydon"
+        "forma_base": "rhyhorn"
     },
     "tangrowth": {
         "egg_groups": [
@@ -3873,7 +3873,7 @@
         ],
         "gender_rate": 2,
         "is_baby": false,
-        "forma_base": "electabuzz"
+        "forma_base": "elekid"
     },
     "magmortar": {
         "egg_groups": [
@@ -3881,7 +3881,7 @@
         ],
         "gender_rate": 2,
         "is_baby": false,
-        "forma_base": "magmar"
+        "forma_base": "magby"
     },
     "togekiss": {
         "egg_groups": [
@@ -3890,7 +3890,7 @@
         ],
         "gender_rate": 1,
         "is_baby": false,
-        "forma_base": "togetic"
+        "forma_base": "togepi"
     },
     "yanmega": {
         "egg_groups": [
@@ -3930,7 +3930,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "piloswine"
+        "forma_base": "swinub"
     },
     "porygon-z": {
         "egg_groups": [
@@ -3938,7 +3938,7 @@
         ],
         "gender_rate": -1,
         "is_baby": false,
-        "forma_base": "porygon2"
+        "forma_base": "porygon"
     },
     "gallade": {
         "egg_groups": [
@@ -3947,7 +3947,7 @@
         ],
         "gender_rate": 0,
         "is_baby": false,
-        "forma_base": "kirlia"
+        "forma_base": "ralts"
     },
     "probopass": {
         "egg_groups": [
@@ -3963,7 +3963,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "dusclops"
+        "forma_base": "duskull"
     },
     "froslass": {
         "egg_groups": [
@@ -4129,7 +4129,7 @@
         ],
         "gender_rate": 1,
         "is_baby": false,
-        "forma_base": "servine"
+        "forma_base": "snivy"
     },
     "tepig": {
         "egg_groups": [
@@ -4153,7 +4153,7 @@
         ],
         "gender_rate": 1,
         "is_baby": false,
-        "forma_base": "pignite"
+        "forma_base": "tepig"
     },
     "oshawott": {
         "egg_groups": [
@@ -4177,7 +4177,7 @@
         ],
         "gender_rate": 1,
         "is_baby": false,
-        "forma_base": "dewott"
+        "forma_base": "oshawott"
     },
     "patrat": {
         "egg_groups": [
@@ -4217,7 +4217,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "herdier"
+        "forma_base": "lillipup"
     },
     "purrloin": {
         "egg_groups": [
@@ -4321,7 +4321,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "tranquill"
+        "forma_base": "pidove"
     },
     "blitzle": {
         "egg_groups": [
@@ -4361,7 +4361,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "boldore"
+        "forma_base": "roggenrola"
     },
     "woobat": {
         "egg_groups": [
@@ -4427,7 +4427,7 @@
         ],
         "gender_rate": 2,
         "is_baby": false,
-        "forma_base": "gurdurr"
+        "forma_base": "timburr"
     },
     "tympole": {
         "egg_groups": [
@@ -4451,7 +4451,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "palpitoad"
+        "forma_base": "tympole"
     },
     "throh": {
         "egg_groups": [
@@ -4491,7 +4491,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "swadloon"
+        "forma_base": "sewaddle"
     },
     "venipede": {
         "egg_groups": [
@@ -4515,7 +4515,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "whirlipede"
+        "forma_base": "venipede"
     },
     "cottonee": {
         "egg_groups": [
@@ -4581,7 +4581,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "krokorok"
+        "forma_base": "sandile"
     },
     "darumaka": {
         "egg_groups": [
@@ -4775,7 +4775,7 @@
         ],
         "gender_rate": 6,
         "is_baby": false,
-        "forma_base": "gothorita"
+        "forma_base": "gothita"
     },
     "solosis": {
         "egg_groups": [
@@ -4799,7 +4799,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "duosion"
+        "forma_base": "solosis"
     },
     "ducklett": {
         "egg_groups": [
@@ -4841,7 +4841,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "vanillish"
+        "forma_base": "vanillite"
     },
     "deerling": {
         "egg_groups": [
@@ -4980,7 +4980,7 @@
         ],
         "gender_rate": -1,
         "is_baby": false,
-        "forma_base": "klang"
+        "forma_base": "klink"
     },
     "tynamo": {
         "egg_groups": [
@@ -5004,7 +5004,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "eelektrik"
+        "forma_base": "tynamo"
     },
     "elgyem": {
         "egg_groups": [
@@ -5044,7 +5044,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "lampent"
+        "forma_base": "litwick"
     },
     "axew": {
         "egg_groups": [
@@ -5071,7 +5071,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "fraxure"
+        "forma_base": "axew"
     },
     "cubchoo": {
         "egg_groups": [
@@ -5259,7 +5259,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "zweilous"
+        "forma_base": "deino"
     },
     "larvesta": {
         "egg_groups": [
@@ -5395,7 +5395,7 @@
         ],
         "gender_rate": 1,
         "is_baby": false,
-        "forma_base": "quilladin"
+        "forma_base": "chespin"
     },
     "fennekin": {
         "egg_groups": [
@@ -5419,7 +5419,7 @@
         ],
         "gender_rate": 1,
         "is_baby": false,
-        "forma_base": "braixen"
+        "forma_base": "fennekin"
     },
     "froakie": {
         "egg_groups": [
@@ -5443,7 +5443,7 @@
         ],
         "gender_rate": 1,
         "is_baby": false,
-        "forma_base": "frogadier"
+        "forma_base": "froakie"
     },
     "bunnelby": {
         "egg_groups": [
@@ -5483,7 +5483,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "fletchinder"
+        "forma_base": "fletchling"
     },
     "scatterbug": {
         "egg_groups": [
@@ -5507,7 +5507,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "spewpa"
+        "forma_base": "scatterbug"
     },
     "litleo": {
         "egg_groups": [
@@ -5547,7 +5547,7 @@
         ],
         "gender_rate": 8,
         "is_baby": false,
-        "forma_base": "floette"
+        "forma_base": "flabebe"
     },
     "skiddo": {
         "egg_groups": [
@@ -5629,7 +5629,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "doublade"
+        "forma_base": "honedge"
     },
     "spritzee": {
         "egg_groups": [
@@ -5842,7 +5842,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "sliggoo"
+        "forma_base": "goomy"
     },
     "klefki": {
         "egg_groups": [
@@ -5992,7 +5992,7 @@
         ],
         "gender_rate": 1,
         "is_baby": false,
-        "forma_base": "dartrix"
+        "forma_base": "rowlet"
     },
     "litten": {
         "egg_groups": [
@@ -6016,7 +6016,7 @@
         ],
         "gender_rate": 1,
         "is_baby": false,
-        "forma_base": "torracat"
+        "forma_base": "litten"
     },
     "popplio": {
         "egg_groups": [
@@ -6043,7 +6043,7 @@
         ],
         "gender_rate": 1,
         "is_baby": false,
-        "forma_base": "brionne"
+        "forma_base": "popplio"
     },
     "pikipek": {
         "egg_groups": [
@@ -6067,7 +6067,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "trumbeak"
+        "forma_base": "pikipek"
     },
     "yungoos": {
         "egg_groups": [
@@ -6107,7 +6107,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "charjabug"
+        "forma_base": "grubbin"
     },
     "crabrawler": {
         "egg_groups": [
@@ -6313,7 +6313,7 @@
         ],
         "gender_rate": 8,
         "is_baby": false,
-        "forma_base": "steenee"
+        "forma_base": "bounsweet"
     },
     "comfey": {
         "egg_groups": [
@@ -6486,7 +6486,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "hakamo-o"
+        "forma_base": "jangmo-o"
     },
     "tapu-koko": {
         "egg_groups": [
@@ -6542,7 +6542,7 @@
         ],
         "gender_rate": -1,
         "is_baby": false,
-        "forma_base": "cosmoem"
+        "forma_base": "cosmog"
     },
     "lunala": {
         "egg_groups": [
@@ -6550,7 +6550,7 @@
         ],
         "gender_rate": -1,
         "is_baby": false,
-        "forma_base": "cosmoem"
+        "forma_base": "cosmog"
     },
     "nihilego": {
         "egg_groups": [
@@ -6713,7 +6713,7 @@
         ],
         "gender_rate": 1,
         "is_baby": false,
-        "forma_base": "thwackey"
+        "forma_base": "grookey"
     },
     "scorbunny": {
         "egg_groups": [
@@ -6740,7 +6740,7 @@
         ],
         "gender_rate": 1,
         "is_baby": false,
-        "forma_base": "raboot"
+        "forma_base": "scorbunny"
     },
     "sobble": {
         "egg_groups": [
@@ -6767,7 +6767,7 @@
         ],
         "gender_rate": 1,
         "is_baby": false,
-        "forma_base": "drizzile"
+        "forma_base": "sobble"
     },
     "skwovet": {
         "egg_groups": [
@@ -6807,7 +6807,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "corvisquire"
+        "forma_base": "rookidee"
     },
     "blipbug": {
         "egg_groups": [
@@ -6831,7 +6831,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "dottler"
+        "forma_base": "blipbug"
     },
     "nickit": {
         "egg_groups": [
@@ -6937,7 +6937,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "carkol"
+        "forma_base": "rolycoly"
     },
     "applin": {
         "egg_groups": [
@@ -7099,7 +7099,7 @@
         ],
         "gender_rate": 8,
         "is_baby": false,
-        "forma_base": "hattrem"
+        "forma_base": "hatenna"
     },
     "impidimp": {
         "egg_groups": [
@@ -7126,7 +7126,7 @@
         ],
         "gender_rate": 0,
         "is_baby": false,
-        "forma_base": "morgrem"
+        "forma_base": "impidimp"
     },
     "obstagoon": {
         "egg_groups": [
@@ -7134,7 +7134,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "linoone"
+        "forma_base": "zigzagoon"
     },
     "perrserker": {
         "egg_groups": [
@@ -7168,7 +7168,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "mr-mime"
+        "forma_base": "mime-jr"
     },
     "runerigus": {
         "egg_groups": [
@@ -7349,7 +7349,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "drakloak"
+        "forma_base": "dreepy"
     },
     "zacian": {
         "egg_groups": [
@@ -7461,7 +7461,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "ursaring"
+        "forma_base": "teddiursa"
     },
     "basculegion": {
         "egg_groups": [
@@ -7520,7 +7520,7 @@
         ],
         "gender_rate": 1,
         "is_baby": false,
-        "forma_base": "floragato"
+        "forma_base": "sprigatito"
     },
     "fuecoco": {
         "egg_groups": [
@@ -7544,7 +7544,7 @@
         ],
         "gender_rate": 1,
         "is_baby": false,
-        "forma_base": "crocalor"
+        "forma_base": "fuecoco"
     },
     "quaxly": {
         "egg_groups": [
@@ -7571,7 +7571,7 @@
         ],
         "gender_rate": 1,
         "is_baby": false,
-        "forma_base": "quaxwell"
+        "forma_base": "quaxly"
     },
     "lechonk": {
         "egg_groups": [
@@ -7643,7 +7643,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "pawmo"
+        "forma_base": "pawmi"
     },
     "tandemaus": {
         "egg_groups": [
@@ -7703,7 +7703,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "dolliv"
+        "forma_base": "smoliv"
     },
     "squawkabilly": {
         "egg_groups": [
@@ -7735,7 +7735,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "naclstack"
+        "forma_base": "nacli"
     },
     "charcadet": {
         "egg_groups": [
@@ -7937,7 +7937,7 @@
         ],
         "gender_rate": 8,
         "is_baby": false,
-        "forma_base": "tinkatuff"
+        "forma_base": "tinkatink"
     },
     "wiglett": {
         "egg_groups": [
@@ -8099,7 +8099,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "primeape"
+        "forma_base": "mankey"
     },
     "clodsire": {
         "egg_groups": [
@@ -8132,7 +8132,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "bisharp"
+        "forma_base": "pawniard"
     },
     "great-tusk": {
         "egg_groups": [
@@ -8255,7 +8255,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "arctibax"
+        "forma_base": "frigibax"
     },
     "gimmighoul": {
         "egg_groups": [
@@ -8428,7 +8428,7 @@
         ],
         "gender_rate": 4,
         "is_baby": false,
-        "forma_base": "dipplin"
+        "forma_base": "applin"
     },
     "gouging-fire": {
         "egg_groups": [
