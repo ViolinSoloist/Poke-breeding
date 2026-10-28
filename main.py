@@ -1,10 +1,10 @@
-import Pokebreed as pb
+import Pokebreed as Pb
 
 if __name__ == "__main__":
-    ditto = pb.new_pokemon("ditto", ivs=pb.IVs(32,32,32,32,32,32), item=pb.BreedingItem.POWER_ANKLET)
-    raichu = pb.new_pokemon("raichu", gender=pb.Gender.FEMALE, ivs=pb.IVs(67,67,67,67,67,67), item=pb.BreedingItem.DESTINY_KNOT)
+    ditto = Pb.newPokemon("ditto", ivs=Pb.IVs(32,32,32,32,32,32), item=Pb.BreedingItem.POWER_ANKLET)
+    raichu = Pb.newPokemon("raichu", gender=Pb.Gender.FEMALE, ivs=Pb.IVs(67,67,67,67,67,67), item=Pb.BreedingItem.DESTINY_KNOT)
     print(ditto)
     print(raichu)
 
-    son = pb.gerar_ovo(ditto, raichu)
+    son = Pb.gerar_ovo(ditto, raichu)
     print(son)

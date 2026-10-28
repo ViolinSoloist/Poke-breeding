@@ -157,7 +157,7 @@ conexoes_egg_groups = {
 # ------------------- FUNCOES -------------------
 # -----------------------------------------------
 
-def new_pokemon(specie: str, gender: Gender = None, item: BreedingItem = None, ivs: IVs = None) -> Pkm:
+def newPokemon(specie: str, gender: Gender = None, item: BreedingItem = None, ivs: IVs = None) -> Pkm:
     """Instancia um Pokémon pela sua espécie, preenchendo informações importantes através da base de dados."""
     
     nome = specie.lower()
@@ -219,7 +219,7 @@ def compatible(p1: Pkm, p2: Pkm):
         
     return True
 
-def __get_parent_base(p1: Pkm, p2: Pkm) -> Pkm:
+def __getParentBase(p1: Pkm, p2: Pkm) -> Pkm:
     """Identifica o Pokémon matriz do cruzamento (a maioria das vezes é a fêmea). 
     fornecerá espécie, grupos de ovo e (futuramente) a pokeboll"""
     
@@ -233,7 +233,7 @@ def __get_parent_base(p1: Pkm, p2: Pkm) -> Pkm:
     return p1 if p1.genero == Gender.FEMALE else p2
 
 # IMPLEMENTAR: transmissão de habilidades e naturezas também
-def gerar_ovo(parent1: Pkm, parent2: Pkm) -> Pkm:
+def gerarOvo(parent1: Pkm, parent2: Pkm) -> Pkm:
     """Gera o ovo de um Pokémon, fruto do cruzamento de outros dois Pokémons compatíveis, calculando os atributos.
     A função também verifica compatibilidade.
     
@@ -304,11 +304,11 @@ def gerar_ovo(parent1: Pkm, parent2: Pkm) -> Pkm:
             novos_ivs[atributo_sorteado] = getattr(pai_escolhido.ivs, atributo_sorteado)
             
     ivs_filhote = IVs(**novos_ivs)
-    pai_base = __get_parent_base(parent1, parent2)
+    pai_base = __getParentBase(parent1, parent2)
     especie_filho = pai_base.forma_base
     genero_filho = randomGender(especie_filho)
 
-    return new_pokemon(
+    return newPokemon(
         specie=especie_filho,
         gender=genero_filho,
         item=None,
